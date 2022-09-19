@@ -8,8 +8,8 @@ function verificar() {
     var gênero = ''
     var img = document.getElementById('foto')
 
-    if (fano.value.length == 0 || Number(fano.value)>ano) || Number(fano.value)<1912) {
-        window.alert('[ERRO]! Valor inválido ou o ano ultrapassa a idade limite possível.')
+    if (fano.value.length == 0 || Number(fano.value)>ano) {
+        window.alert('[ERRO]! Valor inválido.')
       } else if (fsex[0].checked) {
         gênero = 'Homem'
         
