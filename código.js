@@ -10,10 +10,7 @@ function verificar() {
 
     if (fano.value.length == 0 || Number(fano.value)>ano)   {
         window.alert('[ERRO]! Verifique os dados e tente novamente.')
-      } else if (Number(fano.value)<1912) {
-          window.alert('Ano de Nascimento não é aceito. Por favor digite um ano acima de 1912'
-        }
-        else if (fsex[0].checked) {
+      } else if (fsex[0].checked) {
         gênero = 'Homem'
         
         if (idade < 10) {
